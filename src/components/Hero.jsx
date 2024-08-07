@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="hero bg-cover bg-center flex items-center justify-center text-white relative h-screen w-full">
       <div className="overlay absolute inset-0 bg-black opacity-50"></div>
       <div className="text-center z-10">
-        <h1 className="text-5xl md:text-7xl font-bold mb-4">
+        <h1 className="text-5xl md:text-7xl font-bold mb-4" translate="no">
           <Typewriter
             options={{
               strings: ['¡Hola! Soy Jhonatan Zarzuri'],

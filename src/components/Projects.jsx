@@ -21,7 +21,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="w-full h-screen py-20 px-4 bg-[#010101]">
+    <section id="projects" className="w-full h-auto py-20 px-4 bg-[#010101]">
       <h2 className="text-3xl font-bold text-white mb-6">Mis Proyectos</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {projectData.map((project, index) => (
