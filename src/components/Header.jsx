@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="glassmorphism  text-white shadow-md fixed w-full z-10 top-0 left-0">
+    <header className="glassmorphism text-white shadow-md fixed w-full z-10 top-0 left-0 rounded-none">
       <div className="container mx-auto flex justify-between items-center p-4">
         <div className="flex items-center">
           <Logo />
@@ -34,7 +34,7 @@ const Header = () => {
 };
 
 const NavItem = ({ href, onClick, children }) => (
-  <a href={href} onClick={onClick} className="block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-400 mr-4 transition duration-300">
+  <a href={href} onClick={onClick} className="block mt-4 md:inline-block md:mt-0 text-white hover:text-gray-400 mr-4 transition duration-300 nav-item">
     {children}
   </a>
 );

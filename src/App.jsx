@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      <main className='container mx-auto px-4 pt-16'>
-        <About />
+      <main className=''>
         <Projects />
+        <About />
         <Contact />
       </main>
       <Footer />
