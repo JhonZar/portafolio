@@ -5,7 +5,7 @@ const ProjectCard = ({ title, description, imageUrl }) => {
 
   return (
     <div
-      className="relative bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer"
+      className="relative bg-[#010101] border border-gray-700 rounded-lg shadow-lg overflow-hidden cursor-pointer"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
@@ -19,8 +19,8 @@ const ProjectCard = ({ title, description, imageUrl }) => {
         </div>
       </div>
       <div className="p-6">
-        <h3 className="text-xl font-semibold mb-2">{title}</h3>
-        <p className="text-gray-700">{description}</p>
+        <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
+        {/* <p className="text-gray-400">{description}</p> */}
       </div>
     </div>
   );

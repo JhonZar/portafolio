@@ -4,8 +4,8 @@ import ProjectCard from './target/ProjectCard';
 const Projects = () => {
   const projectData = [
     {
-      title: 'Project One',
-      description: 'A brief description of Project One.',
+      title: 'Ketal Mesobol',
+      description: 'Desarrollo de modulo de ventas y gestion de pedidos. Creacion de pedidos, seguimiento de pedidos para la parte de cliente, asignacion de pedidos para los usuarios de produccuion.',
       imageUrl: 'https://via.placeholder.com/400x250'
     },
     {
@@ -21,8 +21,8 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 px-4">
-      <h2 className="text-3xl font-bold mb-6">Mis Proyectos</h2>
+    <section id="projects" className="w-full h-screen py-20 px-4 bg-[#010101]">
+      <h2 className="text-3xl font-bold text-white mb-6">Mis Proyectos</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {projectData.map((project, index) => (
           <ProjectCard

@@ -1,12 +1,13 @@
 .hero {
-  background-image: url('../assets/hero.jpg');
+  background-image: url('../assets/hero.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.5) 100%);
   background-size: cover;
   background-position: center;
   position: relative;
   z-index: 1;
   height: 100vh;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
+
 #about {
   margin-top: 0; /* Ajusta según sea necesario */
 }

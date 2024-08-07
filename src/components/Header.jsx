@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="glassmorphism text-white shadow-md fixed w-full z-10 top-0 left-0 rounded-none">
+    <header className="glassmorphism text-white shadow-md fixed w-full z-10 top-0 left-0">
       <div className="container mx-auto flex justify-between items-center p-4">
         <div className="flex items-center">
           <Logo />
